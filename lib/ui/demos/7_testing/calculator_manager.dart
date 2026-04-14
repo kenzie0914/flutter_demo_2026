@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class TestingManager {
+class CalculatorManager {
   final answerNotifier = ValueNotifier<double>(0);
 
   void add(String first, String second) {

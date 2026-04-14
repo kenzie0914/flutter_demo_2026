@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/ui/demos/7_testing/testing_manager.dart';
+import 'package:flutter_demo/ui/demos/7_testing/calculator_manager.dart';
 
-class TestingDemo extends StatefulWidget {
-  const TestingDemo({super.key});
+class CalculatorDemo extends StatefulWidget {
+  const CalculatorDemo({super.key});
 
   @override
-  State<TestingDemo> createState() => _TestingDemoState();
+  State<CalculatorDemo> createState() => _CalculatorDemoState();
 }
 
-class _TestingDemoState extends State<TestingDemo> {
-  final manager = TestingManager();
+class _CalculatorDemoState extends State<CalculatorDemo> {
+  final manager = CalculatorManager();
   final firstController = TextEditingController();
   final secondController = TextEditingController();
 
