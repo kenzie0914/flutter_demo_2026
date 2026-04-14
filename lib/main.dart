@@ -10,7 +10,6 @@ import 'package:flutter_demo/ui/demos/5_sqlite/database.dart';
 import 'package:flutter_demo/ui/demos/5_sqlite/sqlite_demo.dart';
 import 'package:flutter_demo/ui/demos/6_networking/networking_demo.dart';
 import 'package:flutter_demo/ui/settings/settings_screen.dart';
-import 'package:sqflite/sqlite_api.dart';
 import 'ui/demos/1_dart/dart_demo_screen.dart';
 
 Future<void> main() async {
